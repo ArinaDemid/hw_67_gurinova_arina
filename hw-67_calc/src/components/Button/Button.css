@@ -1,0 +1,16 @@
+.Button {
+  width: 80px;
+  height: 50px;
+  background-color: rgba(235, 221, 214, 0.89);
+  margin: 5px;
+  text-align: center;
+  border: 1px solid grey;
+  font-size: 20px;
+  outline: none;
+}
+
+.delete {
+  width: 260px;
+  height: 50px;
+  background-color: rgba(200, 235, 168, 0.89);
+}

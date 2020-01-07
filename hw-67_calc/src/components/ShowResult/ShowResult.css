@@ -1,0 +1,10 @@
+.ShowResult {
+  font-size: 20px;
+  text-align: right;
+  width: 235px;
+  height: 100px;
+  outline: none;
+  background-color: rgb(240, 237, 235);
+  border: 1px solid gray;
+  padding: 0 10px;
+}
