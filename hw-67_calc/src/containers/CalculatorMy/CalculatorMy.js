@@ -6,8 +6,7 @@ import {connect} from 'react-redux';
 
 const mapStateToProps = state => {
   return {
-    numbers: state.numbers,
-    result: state.result
+    numbers: state.numbers
   };
 };
 
@@ -23,7 +22,7 @@ class CalculatorMy extends Component {
   render() {
     return (
       <Fragment>
-        <ShowResult value={this.props.result}/>
+        <ShowResult value={this.props.numbers}/>
         {BUTTONS.map(value => (
           <Button key={value} value={value} click={this.props.addNumber}></Button>
         ))}
